@@ -1,10 +1,10 @@
 # Auralis Studio
 
-Browser DAW with Tauri native bridge.
+## Windows
 
-## Windows Portable
-
-Download `Auralis-Windows-Portable.zip`, extract, and run `Auralis.bat`.
+1. Install Node.js from https://nodejs.org (once)
+2. Double-click `Auralis.bat`
+3. Browser opens at http://localhost:8080
 
 ## Source
 
@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-## Native build
+## Native (Tauri)
 
 ```bash
 npm run tauri:dev
