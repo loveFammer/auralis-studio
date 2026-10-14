@@ -1,24 +1,19 @@
-# Auralis — Mix & Master
+# Auralis Studio
 
-Browser-based and Tauri native DAW for mixing and mastering.
+Browser DAW with Tauri native bridge.
 
-## Features
+## Windows Portable
 
-- Multi-track arrangement with waveform editing
-- Mixer console with EQ, compressor, sends
-- Demucs ONNX instrument separation (WebGPU/WASM)
-- Real-time meters (LUFS, True Peak, goniometer)
-- Drum machine, chords, visualizer
-- Tauri native audio bridge (cpal) and VST scan/load
+Download `Auralis-Windows-Portable.zip`, extract, and run `Auralis.bat`.
 
-## Run (web)
+## Source
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build native
+## Native build
 
 ```bash
 npm run tauri:dev
